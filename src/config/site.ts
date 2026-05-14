@@ -1,97 +1,113 @@
 export const siteConfig = {
-  // ====== CUSTOMIZE THESE FOR EACH TOOL ======
-  name: "{{TOOL_NAME}}",
-  title: "{{TOOL_TITLE}}",
-  description: "{{TOOL_DESCRIPTION}}",
-  url: "https://{{TOOL_SLUG}}.jagodana.com",
+  name: "Markdown TOC Generator",
+  title: "Markdown TOC Generator — Instant Table of Contents from Headings",
+  description:
+    "Paste any Markdown document and instantly generate a nested table of contents with anchor links. Supports H1–H6, ordered/unordered lists, configurable depth. 100% free, no login.",
+  url: "https://markdown-toc-generator.tools.jagodana.com",
   ogImage: "/opengraph-image",
 
-  // Header
-  headerIcon: "Wrench", // lucide-react icon name (e.g., Image, Map, Code, Palette, Globe, FileSearch)
-  // Brand gradient colors for Tailwind are in globals.css (--brand / --brand-accent)
-  // Use text-brand, from-brand, to-brand-accent etc. in components
-  brandAccentColor: "#06b6d4", // hex accent for OG image gradient (must match --brand-accent in globals.css)
+  headerIcon: "List",
+  brandAccentColor: "#6366f1",
 
-  // SEO
   keywords: [
-    "{{KEYWORD_1}}",
-    "{{KEYWORD_2}}",
-    "{{KEYWORD_3}}",
+    "markdown table of contents generator",
+    "markdown toc",
+    "toc generator",
+    "markdown headings to toc",
+    "markdown anchor links",
+    "generate table of contents markdown",
+    "markdown toc online",
+    "readme table of contents",
   ],
-  applicationCategory: "DeveloperApplication", // or "DesignApplication", "UtilitiesApplication"
+  applicationCategory: "DeveloperApplication",
 
-  // Theme
-  themeColor: "#10b981", // used in manifest and meta tags
+  themeColor: "#3b82f6",
 
-  // Branding
   creator: "Jagodana",
   creatorUrl: "https://jagodana.com",
   twitterHandle: "@jagodana",
 
-  // Social Profiles (for Organization schema sameAs)
   socialProfiles: [
     "https://twitter.com/jagodana",
-    // Add more: LinkedIn, YouTube, etc.
   ],
 
-  // Links
   links: {
-    github: "https://github.com/Jagodana-Studio-Private-Limited/{{TOOL_SLUG}}",
+    github:
+      "https://github.com/Jagodana-Studio-Private-Limited/markdown-toc-generator",
     website: "https://jagodana.com",
   },
 
-  // Footer
   footer: {
-    about: "{{FOOTER_ABOUT_DESCRIPTION}}",
+    about:
+      "Free online Markdown TOC Generator. Instantly build a table of contents with GitHub-compatible anchor links from any Markdown document.",
     featuresTitle: "Features",
     features: [
-      "{{FEATURE_1}}",
-      "{{FEATURE_2}}",
-      "{{FEATURE_3}}",
-      "{{FEATURE_4}}",
+      "H1–H6 heading support",
+      "GitHub-style anchor links",
+      "Ordered & unordered lists",
+      "Configurable heading depth",
     ],
   },
 
-  // Hero Section
   hero: {
-    badge: "{{HERO_BADGE_TEXT}}",
-    titleLine1: "{{HERO_TITLE_LINE_1}}",
-    titleGradient: "{{HERO_TITLE_GRADIENT_TEXT}}",
-    subtitle: "{{HERO_SUBTITLE}}",
+    badge: "Free Markdown Tool",
+    titleLine1: "Generate a Table of Contents",
+    titleGradient: "from Any Markdown",
+    subtitle:
+      "Paste your Markdown document and instantly get a nested TOC with GitHub-compatible anchor links. Choose heading depth, list style, and copy in one click.",
   },
 
-  // Feature Cards (shown on homepage)
   featureCards: [
     {
-      icon: "{{FEATURE_ICON_1}}",
-      title: "{{FEATURE_CARD_TITLE_1}}",
-      description: "{{FEATURE_CARD_DESC_1}}",
+      icon: "📑",
+      title: "Instant TOC",
+      description:
+        "Automatically extracts all headings (H1–H6) and builds a nested table of contents with anchor links in seconds.",
     },
     {
-      icon: "{{FEATURE_ICON_2}}",
-      title: "{{FEATURE_CARD_TITLE_2}}",
-      description: "{{FEATURE_CARD_DESC_2}}",
+      icon: "⚙️",
+      title: "Fully Configurable",
+      description:
+        "Set minimum and maximum heading levels, switch between ordered and unordered lists, and preview live.",
     },
     {
-      icon: "{{FEATURE_ICON_3}}",
-      title: "{{FEATURE_CARD_TITLE_3}}",
-      description: "{{FEATURE_CARD_DESC_3}}",
+      icon: "🔗",
+      title: "GitHub-Compatible Anchors",
+      description:
+        "Anchors are generated using the same algorithm as GitHub — works perfectly in README files and docs.",
     },
   ],
 
-  // Related Tools (cross-linking to sibling Jagodana tools for internal SEO)
   relatedTools: [
     {
-      name: "Favicon Generator",
-      url: "https://favicon-generator.jagodana.com",
-      icon: "🎨",
-      description: "Generate all favicon sizes + manifest from any image.",
+      name: "Markdown Table Generator",
+      url: "https://markdown-table-generator.jagodana.com",
+      icon: "📊",
+      description: "Build markdown tables visually from a spreadsheet-like editor.",
     },
     {
-      name: "Sitemap Checker",
-      url: "https://sitemap-checker.jagodana.com",
-      icon: "🔍",
-      description: "Discover and validate sitemaps on any website.",
+      name: "Markdown to HTML Converter",
+      url: "https://markdown-to-html-converter.jagodana.com",
+      icon: "🔄",
+      description: "Convert Markdown to clean, styled HTML instantly.",
+    },
+    {
+      name: "README Generator",
+      url: "https://readme-generator.jagodana.com",
+      icon: "📄",
+      description: "Generate professional README.md files for your projects.",
+    },
+    {
+      name: "Markdown Badge Generator",
+      url: "https://markdown-badge-generator.jagodana.com",
+      icon: "🏷️",
+      description: "Create shields.io badges for your Markdown files.",
+    },
+    {
+      name: "HTML to Markdown",
+      url: "https://html-to-markdown.jagodana.com",
+      icon: "⬇️",
+      description: "Convert HTML pages or snippets to clean Markdown.",
     },
     {
       name: "Regex Playground",
@@ -99,76 +115,64 @@ export const siteConfig = {
       icon: "🧪",
       description: "Build, test & debug regular expressions in real-time.",
     },
-    {
-      name: "Screenshot Beautifier",
-      url: "https://screenshot-beautifier.jagodana.com",
-      icon: "📸",
-      description: "Transform screenshots into beautiful images.",
-    },
-    {
-      name: "Color Palette Explorer",
-      url: "https://color-palette-explorer.jagodana.com",
-      icon: "🎭",
-      description: "Extract color palettes from any image.",
-    },
-    {
-      name: "Logo Maker",
-      url: "https://logo-maker.jagodana.com",
-      icon: "✏️",
-      description: "Create a professional logo in 60 seconds.",
-    },
   ],
 
-  // HowTo Steps (drives HowTo JSON-LD schema for rich results)
   howToSteps: [
-    { name: "{{STEP_1_NAME}}", text: "{{STEP_1_TEXT}}", url: "" },
-    { name: "{{STEP_2_NAME}}", text: "{{STEP_2_TEXT}}", url: "" },
-    { name: "{{STEP_3_NAME}}", text: "{{STEP_3_TEXT}}", url: "" },
+    {
+      name: "Paste your Markdown",
+      text: "Copy and paste your full Markdown document into the input area on the left.",
+      url: "",
+    },
+    {
+      name: "Configure depth and style",
+      text: "Choose the minimum and maximum heading levels you want included, then select ordered or unordered list style.",
+      url: "",
+    },
+    {
+      name: "Copy your TOC",
+      text: "Click the Copy button to copy the generated table of contents to your clipboard, then paste it into your document.",
+      url: "",
+    },
   ],
-  howToTotalTime: "PT2M", // ISO 8601 duration (e.g., PT2M = 2 minutes)
+  howToTotalTime: "PT1M",
 
-  // FAQ (drives both the FAQ UI section and FAQPage JSON-LD schema)
   faq: [
     {
-      question: "{{FAQ_QUESTION_1}}",
-      answer: "{{FAQ_ANSWER_1}}",
+      question: "What is a Markdown table of contents?",
+      answer:
+        "A Markdown table of contents (TOC) is a list of links at the top of a document that lets readers quickly jump to any section. Each link uses a GitHub-style anchor (e.g. `#my-heading`) derived from the heading text.",
     },
     {
-      question: "{{FAQ_QUESTION_2}}",
-      answer: "{{FAQ_ANSWER_2}}",
+      question: "Are the anchor links compatible with GitHub?",
+      answer:
+        "Yes. The anchor generation follows the same algorithm GitHub uses: text is lowercased, spaces become hyphens, and most special characters are removed. The result works in GitHub READMEs, GitLab, and most static-site generators.",
     },
     {
-      question: "{{FAQ_QUESTION_3}}",
-      answer: "{{FAQ_ANSWER_3}}",
+      question: "Can I choose which heading levels to include?",
+      answer:
+        "Absolutely. Use the Min Level and Max Level sliders to control which headings appear in your TOC. For example, set min=2 and max=3 to include only H2 and H3 headings.",
     },
     {
-      question: "{{FAQ_QUESTION_4}}",
-      answer: "{{FAQ_ANSWER_4}}",
+      question: "Does this tool work for large documents?",
+      answer:
+        "Yes — all processing happens in your browser. There is no file size limit, no upload, and no server round-trip. Your content never leaves your device.",
+    },
+    {
+      question: "Can I generate an ordered (numbered) TOC?",
+      answer:
+        "Yes. Toggle the list style switch to switch between an unordered (bulleted) list and an ordered (numbered) list. Both styles produce valid Markdown.",
     },
   ],
 
-  // ====== PAGES (for sitemap + per-page SEO) ======
-  // Add every route here. Sitemap and generatePageMetadata() read from this.
   pages: {
     "/": {
-      title: "{{TOOL_TITLE}}",
-      description: "{{TOOL_DESCRIPTION}}",
+      title:
+        "Markdown TOC Generator — Instant Table of Contents from Headings",
+      description:
+        "Paste any Markdown document and instantly generate a nested table of contents with anchor links. Supports H1–H6, ordered/unordered lists, configurable depth.",
       changeFrequency: "weekly" as const,
       priority: 1,
     },
-    // Example page (DELETE when starting your tool, or customize)
-    "/about": {
-      title: "About - {{TOOL_NAME}}",
-      description: "Learn more about {{TOOL_NAME}} and how it works.",
-      changeFrequency: "monthly" as const,
-      priority: 0.7,
-    },
-    // "/blog": {
-    //   title: "Blog - {{TOOL_NAME}}",
-    //   description: "Tips, tutorials, and updates about {{TOOL_NAME}}.",
-    //   changeFrequency: "weekly" as const,
-    //   priority: 0.8,
-    // },
   },
 } as const;
 
